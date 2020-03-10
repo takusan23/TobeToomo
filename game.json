@@ -4,12 +4,6 @@
 	"fps": 30,
 	"main": "./script/_bootstrap.js",
 	"assets": {
-		"se": {
-			"type": "audio",
-			"path": "audio/se",
-			"systemId": "sound",
-			"duration": 250
-		},
 		"main": {
 			"type": "script",
 			"path": "script/main.js",
@@ -25,11 +19,53 @@
 			"path": "script/_bootstrap.js",
 			"global": true
 		},
+		"intai": {
+			"type": "image",
+			"width": 80,
+			"height": 76,
+			"path": "image/intai.png"
+		},
 		"inu": {
 			"type": "image",
 			"width": 80,
 			"height": 66,
 			"path": "image/inu.png"
+		},
+		"kanemoti": {
+			"type": "image",
+			"width": 100,
+			"height": 65,
+			"path": "image/kanemoti.png"
+		},
+		"karaoke": {
+			"type": "image",
+			"width": 80,
+			"height": 72,
+			"path": "image/karaoke.png"
+		},
+		"karaoke_2": {
+			"type": "image",
+			"width": 80,
+			"height": 57,
+			"path": "image/karaoke_2.png"
+		},
+		"kiyomizu": {
+			"type": "image",
+			"width": 60,
+			"height": 76,
+			"path": "image/kiyomizu.png"
+		},
+		"korean": {
+			"type": "image",
+			"width": 80,
+			"height": 67,
+			"path": "image/korean.png"
+		},
+		"launch": {
+			"type": "image",
+			"width": 80,
+			"height": 49,
+			"path": "image/launch.png"
 		},
 		"n_kou": {
 			"type": "image",
@@ -49,11 +85,59 @@
 			"height": 320,
 			"path": "image/title.png"
 		},
-		"intai": {
-			"type": "image",
-			"width": 80,
-			"height": 76,
-			"path": "image/intai.png"
+		"doumo_toomo": {
+			"type": "audio",
+			"path": "audio/doumo_toomo",
+			"systemId": "sound",
+			"duration": 1045
+		},
+		"gogo_no_zyugyou": {
+			"type": "audio",
+			"path": "audio/gogo_no_zyugyou",
+			"systemId": "sound",
+			"duration": 1742
+		},
+		"hattastu_syougai": {
+			"type": "audio",
+			"path": "audio/hattastu_syougai",
+			"systemId": "sound",
+			"duration": 2044
+		},
+		"karaoke_ikuka": {
+			"type": "audio",
+			"path": "audio/karaoke_ikuka",
+			"systemId": "sound",
+			"duration": 1672
+		},
+		"katsudon_channel": {
+			"type": "audio",
+			"path": "audio/katsudon_channel",
+			"systemId": "sound",
+			"duration": 3158
+		},
+		"korean_sound": {
+			"type": "audio",
+			"path": "audio/korean_sound",
+			"systemId": "sound",
+			"duration": 3785
+		},
+		"n_kou_taigaku": {
+			"type": "audio",
+			"path": "audio/n_kou_taigaku",
+			"systemId": "sound",
+			"duration": 2740
+		},
+		"san_ryuunen": {
+			"type": "audio",
+			"path": "audio/san_ryuunen",
+			"systemId": "sound",
+			"duration": 2601
+		},
+		"teacher_block": {
+			"type": "audio",
+			"path": "audio/teacher_block",
+			"systemId": "sound",
+			"duration": 4110
 		}
 	},
 	"environment": {
